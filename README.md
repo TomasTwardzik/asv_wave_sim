@@ -8,7 +8,7 @@ Once you have everything installed (ROS2, Wave Sim, etc.), you must complete the
 2. Update the submodule to point to the correct repository and branch:
 
 ```bash
-cd /Tools/simulation/gz
+cd Tools/simulation/gz
 git remote add maritime_origin git@github.com:TomasTwardzik/PX4-gazebo-models.git
 git fetch maritime_origin
 git checkout -b maritime_models maritime_origin/maritime_models
